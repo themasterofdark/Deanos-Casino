@@ -1,6 +1,3 @@
-from keep_alive import keep_alive
-keep_alive()
-
 # bot.py — Full working Discord slots + manual payout workflow
 # Requires: Python 3.10+, pip install discord.py aiosqlite
 # Set environment variables or edit DEFAULT_* values below.
@@ -477,4 +474,5 @@ if __name__ == "__main__":
     try:
         bot.run(TOKEN)
     except Exception as e:
+
         print("Failed to start bot:", e)
